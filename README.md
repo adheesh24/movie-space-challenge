@@ -2,7 +2,7 @@
 
 1. Open your terminal and navigate to the folder where you want to clone the project.
 2. Clone the repository using the following command:
-        git clone <repo-url>
+        git clone https://github.com/adheesh24/movie-space-challenge.git
 3. Navigate into the cloned repository folder: 
         cd movie-code-challenge
   
