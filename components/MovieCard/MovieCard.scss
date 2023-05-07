@@ -1,0 +1,35 @@
+.container {
+    flex: 1;
+    margin: 5px;
+}
+
+.row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: #ccc;
+}
+
+.column {
+    flex: 1;
+}
+
+.poster {
+    width: 100%;
+    height: 200px;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.year {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+}

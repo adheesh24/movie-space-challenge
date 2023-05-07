@@ -1,12 +1,29 @@
 {
   "expo": {
-    "name": "blank",
-    "slug": "blank",
+    "name": "MovieSpace",
+    "slug": "MovieSpace",
     "version": "1.0.0",
     "platforms": [
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "jsx",
+        "scss",
+        "sass"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b240cfc6-44c5-430c-ba51-548c5d139c0c"
+      }
+    },
+    "android": {
+      "package": "com.adheesh.MovieSpace"
+    }
   }
 }
